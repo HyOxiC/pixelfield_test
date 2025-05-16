@@ -9,7 +9,7 @@ Thank you for assigning this test task. Below is a summary of what I’ve done a
 
 Task Coverage
 
-- The app is built using the latest stable version of Flutter (3.19.x) and uses null safety throughout.
+- The app is built using the latest stable version of Flutter 3.29.3 and uses null safety throughout.
 - Bottle data is loaded from a local mock JSON file located in the assets folder (`mock_bottles.json`). Although the data is local, a connectivity check has been implemented using the `connectivity_plus` package to simulate the requirement that the data should only load when internet is available.
 - The app uses the BLoC pattern for state management. Events and states are separated clearly and handled cleanly inside a single BLoC file. This also allows the app to support future enhancements like offline filtering or replacing the data source with an API.
 - Git version control was used throughout the development process with regular commits and a clean history.
